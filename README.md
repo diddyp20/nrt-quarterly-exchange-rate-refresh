@@ -16,6 +16,7 @@ you are not limited to these options.
 - [Yahoo Finance](https://finance.yahoo.com/quote/EURUSD%3DX/history?period1=1645401600&period2=1653091200&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)
 - [XE](https://www.xe.com/currencytables/?from=USD&date=2021-05-01#table-section)
 - [Fxtop](https://fxtop.com/en/historical-exchange-rates.php?A=1&C1=USD&C2=EUR&TR=1&MA=1&DD1=01&MM1=01&YYYY1=2001&B=1&P=&I=1&DD2=31&MM2=12&YYYY2=2021&btnOK=Go%21)
+
 The data sources and final conversion rates must be stored in a data repository of your choice. The
 final conversion rate table should show at least the currency name, currency code, currency pair (ex:
 USDEUR), country responsible for the currency, date of the rate, conversion rate, and the source of the
