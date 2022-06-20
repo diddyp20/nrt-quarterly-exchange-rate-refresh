@@ -29,3 +29,9 @@ Expect to spend around two to three hours on this exercise. If you are unable to
 conversion rates table, be ready to discuss what you were able to complete along with your planned
 process to complete the task. Please provide your code at least one day prior to the interview. Feel free
 to reach out with any questions or clarification you may need.
+
+## Conceptual Architecture
+### I. On Premise
+
+
+![image](https://user-images.githubusercontent.com/8740197/174685664-cf9a8675-9e69-48d6-b9ab-11fde2a366eb.png)
