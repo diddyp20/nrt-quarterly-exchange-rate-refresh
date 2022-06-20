@@ -1,3 +1,19 @@
+- [nrt-quarterly-exchange-rate-refresh](#nrt-quarterly-exchange-rate-refresh)
+  * [PROBLEM](#problem)
+  * [Conceptual Architecture](#conceptual-architecture)
+    + [I. On Premise](#i-on-premise)
+      - [A. History Load](#a-history-load)
+      - [B. Incremental Load](#b-incremental-load)
+    + [II. Cloud](#ii-cloud)
+      - [A. History Load](#a-history-load-1)
+      - [B. Incremental Load](#b-incremental-load-1)
+  * [Database Design](#database-design)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+
 # nrt-quarterly-exchange-rate-refresh
 ## PROBLEM
 Eastport Analytics has recently won a contract requiring the conversion of multiple foreign
