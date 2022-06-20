@@ -35,3 +35,11 @@ to reach out with any questions or clarification you may need.
 #### A. History Load
 ![image](https://user-images.githubusercontent.com/8740197/174685786-7984b277-2fde-41a4-b286-60c0c6a858e7.png)
 
+#### B. Incremental Load
+![image](https://user-images.githubusercontent.com/8740197/174685892-0c8f7a1e-9b24-4ebc-93f1-cd583ab59966.png)
+
+### II. Cloud
+#### A. History Load
+#### B. Incremental Load
+
+
