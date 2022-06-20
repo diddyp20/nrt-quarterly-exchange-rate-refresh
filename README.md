@@ -1,3 +1,4 @@
+# nrt-quarterly-exchange-rate-refresh
 - [nrt-quarterly-exchange-rate-refresh](#nrt-quarterly-exchange-rate-refresh)
   * [PROBLEM](#problem)
   * [Conceptual Architecture](#conceptual-architecture)
@@ -9,12 +10,6 @@
       - [B. Incremental Load](#b-incremental-load-1)
   * [Database Design](#database-design)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
-# nrt-quarterly-exchange-rate-refresh
 ## PROBLEM
 Eastport Analytics has recently won a contract requiring the conversion of multiple foreign
 currencies to the U.S. Dollar. Your task is to use opensource data to create a table of quarterly
