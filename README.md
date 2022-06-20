@@ -43,5 +43,7 @@ to reach out with any questions or clarification you may need.
 ![image](https://user-images.githubusercontent.com/8740197/174687169-68c8045c-8100-431b-ac1d-091d7e1c9c93.png)
 
 #### B. Incremental Load
+![image](https://user-images.githubusercontent.com/8740197/174687483-cb6341da-d69b-4092-95c9-7a3f579bb670.png)
 
+## Database Design
 
