@@ -32,6 +32,6 @@ to reach out with any questions or clarification you may need.
 
 ## Conceptual Architecture
 ### I. On Premise
+#### A. History Load
+![image](https://user-images.githubusercontent.com/8740197/174685786-7984b277-2fde-41a4-b286-60c0c6a858e7.png)
 
-
-![image](https://user-images.githubusercontent.com/8740197/174685664-cf9a8675-9e69-48d6-b9ab-11fde2a366eb.png)
