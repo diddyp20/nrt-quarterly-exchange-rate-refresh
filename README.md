@@ -57,4 +57,36 @@ to reach out with any questions or clarification you may need.
 ![image](https://user-images.githubusercontent.com/8740197/174687483-cb6341da-d69b-4092-95c9-7a3f579bb670.png)
 
 ## Database Design
+#Currency Code Table
+
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| ID             | int         | NO   |     | NULL    |       |
+| COUNTRY        | varchar(80) | NO   | PRI | NULL    |       |
+| CURRENCY       | varchar(40) | YES  |     | NULL    |       |
+| ALPHABETICCODE | varchar(5)  | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+# Exchange Rate Table
+
++-------------------------+-------------+------+-----+---------+-------+
+| Field                   | Type        | Null | Key | Default | Extra |
++-------------------------+-------------+------+-----+---------+-------+
+| ID                      | int         | NO   | PRI | NULL    |       |
+| record_date             | varchar(15) | YES  |     | NULL    |       |
+| COUNTRY                 | varchar(80) | YES  |     | NULL    |       |
+| currency                | varchar(40) | YES  |     | NULL    |       |
+| country_currency_desc   | varchar(80) | YES  |     | NULL    |       |
+| exchange_rate           | varchar(30) | YES  |     | NULL    |       |
+| effective_date          | varchar(15) | YES  |     | NULL    |       |
+| src_line_nbr            | varchar(20) | YES  |     | NULL    |       |
+| record_fiscal_year      | varchar(10) | YES  |     | NULL    |       |
+| record_fiscal_quarter   | varchar(5)  | YES  |     | NULL    |       |
+| record_calendar_year    | varchar(5)  | YES  |     | NULL    |       |
+| record_calendar_quarter | varchar(5)  | YES  |     | NULL    |       |
+| record_calendar_month   | varchar(2)  | YES  |     | NULL    |       |
+| record_calendar_day     | varchar(2)  | YES  |     | NULL    |       |
+| curr_source             | varchar(20) | YES  |     | NULL    |       |
++-------------------------+-------------+------+-----+---------+-------+
 
