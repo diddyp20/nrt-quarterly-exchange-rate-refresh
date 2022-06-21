@@ -69,6 +69,6 @@ def scrape_treasury_website(year, share_drive):
 
 if __name__ == "__main__":
     get_currency_code(r'C:\Users\user\Documents\BndNetworks\Projects\exchangeRate\nrt-quarterly-exchange'
-                      r'-rate-refresh\exchange-rate-parser\resources')
-    scrape_treasury_website(2017, r'C:\Users\user\Documents\BndNetworks\Projects\exchangeRate\nrt-quarterly-exchange'
-                                  r'-rate-refresh\exchange-rate-parser\resources')
+                      r'-rate-refresh\exchange-rate-scraper\resources')
+    scrape_treasury_website(2017, r'C:\Users\user\Documents\BndNetworks\Projects\exchangeRate\nrt-quarterly'
+                                  r'-exchange-rate-refresh\exchange-rate-scraper\resources')
