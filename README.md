@@ -1,4 +1,15 @@
 # nrt-quarterly-exchange-rate-refresh
+- [nrt-quarterly-exchange-rate-refresh](#nrt-quarterly-exchange-rate-refresh)
+  * [PROBLEM](#problem)
+  * [Conceptual Architecture](#conceptual-architecture)
+    + [I. On Premise](#i-on-premise)
+      - [A. History Load](#a-history-load)
+      - [B. Incremental Load](#b-incremental-load)
+    + [II. Cloud](#ii-cloud)
+      - [A. History Load](#a-history-load-1)
+      - [B. Incremental Load](#b-incremental-load-1)
+  * [Database Design](#database-design)
+
 ## PROBLEM
 Eastport Analytics has recently won a contract requiring the conversion of multiple foreign
 currencies to the U.S. Dollar. Your task is to use opensource data to create a table of quarterly
@@ -29,3 +40,21 @@ Expect to spend around two to three hours on this exercise. If you are unable to
 conversion rates table, be ready to discuss what you were able to complete along with your planned
 process to complete the task. Please provide your code at least one day prior to the interview. Feel free
 to reach out with any questions or clarification you may need.
+
+## Conceptual Architecture
+### I. On Premise
+#### A. History Load
+![image](https://user-images.githubusercontent.com/8740197/174685786-7984b277-2fde-41a4-b286-60c0c6a858e7.png)
+
+#### B. Incremental Load
+![image](https://user-images.githubusercontent.com/8740197/174685892-0c8f7a1e-9b24-4ebc-93f1-cd583ab59966.png)
+
+### II. Cloud
+#### A. History Load
+![image](https://user-images.githubusercontent.com/8740197/174687169-68c8045c-8100-431b-ac1d-091d7e1c9c93.png)
+
+#### B. Incremental Load
+![image](https://user-images.githubusercontent.com/8740197/174687483-cb6341da-d69b-4092-95c9-7a3f579bb670.png)
+
+## Database Design
+
