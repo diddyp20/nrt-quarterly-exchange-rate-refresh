@@ -58,8 +58,11 @@ to reach out with any questions or clarification you may need.
 
 ## Database Design
 #### Currency Code Table
+![image](https://user-images.githubusercontent.com/8740197/174885637-141b977d-8292-4dbd-92cb-0c559ab761c2.png)
 
 
 #### Exchange Rate Table
+![image](https://user-images.githubusercontent.com/8740197/174885568-157a92b5-67e0-45d7-939e-aa3d877edafb.png)
+
 
 
