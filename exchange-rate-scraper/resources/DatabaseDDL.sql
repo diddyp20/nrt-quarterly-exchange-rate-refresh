@@ -12,6 +12,7 @@ PRIMARY KEY(COUNTRY));
 DROP TABLE IF EXISTS EXCHANGE_RATE;
 CREATE TABLE EXCHANGE_RATE(
 ID INT NOT NULL, record_date VARCHAR(15), COUNTRY VARCHAR(80),
-currency VARCHAR(40), country_currency_desc VARCHAR(80), exchange_rate VARCHAR(30),
-effective_date VARCHAR(15), src_line_nbr VARCHAR(20), record_fiscal_year VARCHAR(10), record_fiscal_quarter VARCHAR(5), record_calendar_year VARCHAR(5), record_calendar_quarter VARCHAR(5), record_calendar_month VARCHAR(2), record_calendar_day VARCHAR(2), curr_source VARCHAR(20),
+ country_currency_desc VARCHAR(80), exchange_rate VARCHAR(30),
+record_fiscal_year VARCHAR(10), record_fiscal_quarter VARCHAR(5), record_calendar_year VARCHAR(5), record_calendar_quarter VARCHAR(5), record_calendar_month VARCHAR(2), record_calendar_day VARCHAR(2), curr_source VARCHAR(20),currency VARCHAR(40), AlphabeticCode VARCHAR(10),
+currencyPair VARCHAR(10),
 PRIMARY KEY(ID));

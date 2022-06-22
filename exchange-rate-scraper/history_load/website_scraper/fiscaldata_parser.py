@@ -34,6 +34,8 @@ def get_currency_code(output_location):
         # delete duplicate
         f = final_data.drop_duplicates(subset=['country'])
         f_data = f[['country', 'Currency', 'AlphabeticCode']]
+        # Converting country to upper case
+        f_data['country'] = f_data['country'].str.upper()
         f_data.to_csv(output)
     except Exception as ex:
         print(f"Couldn't retrieve the currency code", ex)
@@ -54,6 +56,8 @@ def scrape_treasury_website(year, share_drive):
         # print(len(data_df))
         # Adding source column
         data_df['curr_source'] = 'Fiscal_Data'
+        # Convert country lo upper case
+        data_df['country'] = data_df['country'].str.upper()
         # Write exchange rate in the disk
         data_df.to_csv(output_file)
 
