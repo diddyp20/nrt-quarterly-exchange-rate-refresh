@@ -64,5 +64,8 @@ to reach out with any questions or clarification you may need.
 #### Exchange Rate Table
 ![image](https://user-images.githubusercontent.com/8740197/174885568-157a92b5-67e0-45d7-939e-aa3d877edafb.png)
 
+#### History Load Table
+![image](https://user-images.githubusercontent.com/8740197/174943042-58eb09cf-f32a-4b85-b9d8-2a2f90ea1317.png)
+
 
 
